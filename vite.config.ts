@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/NetWard.ai/', // <-- Add this line
+  base: mode === "production" ? "/NetWard.ai/" : "/",
   server: {
     host: "::",
     port: 8080,
