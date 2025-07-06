@@ -82,7 +82,7 @@ const ThreatScanner = () => {
             <div className="flex items-center justify-center space-x-3">
               <Shield className="h-8 w-8 sm:h-12 sm:w-12 text-primary" />
               <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-                LinkGuardian AI
+                NetWard AI Scanner
               </h1>
             </div>
             <p className="text-muted-foreground text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">
